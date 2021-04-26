@@ -29,6 +29,7 @@ namespace ArithmeticStarter
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<SingleDigitAdd, SingleDigitAddViewModel>();
         }
     }
 }
