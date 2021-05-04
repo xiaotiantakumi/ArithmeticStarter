@@ -13,6 +13,7 @@
             <Label Text="{Binding Left}" FontSize="50" />
             <Label Text="+" FontSize="50" />
             <Label Text="{Binding Right}" FontSize="50" />
+            <Label Text="=" FontSize="50" />
         </StackLayout>
         <Entry Placeholder="" Keyboard="Numeric" MaxLength="100" FontSize="50" Text="{Binding Result}"/>
     </StackLayout>
