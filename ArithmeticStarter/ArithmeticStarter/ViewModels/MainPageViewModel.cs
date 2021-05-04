@@ -21,7 +21,7 @@ namespace ArithmeticStarter.ViewModels
 
         private void PageSingleDigitAddShow()
         {
-            NavigationService.NavigateAsync("SingleDigitAdd");
+            NavigationService.NavigateAsync(nameof(SingleDigitAdd));
         }
     }
 }
